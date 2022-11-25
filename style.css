@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/vivid-blurred-colorful-background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 7vh;
+}
+
+.ha {
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.mra {
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mra h1 {
+    color: white;
+}
+
+#reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px 0px rgba(15, 15, 15, 0.5);
+}
+
+.ipt {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    border: 1px solid rgb(96, 96, 96);
+    border-radius: 15px;
+    width: 150px;
+}
+
+.btn:hover {
+    background-color: rgb(96, 96, 96);
+    cursor: pointer;
+}
+
+#bell {
+    height: 6vh;
+    margin-right: 10px;
+}
+#prof {
+    height: 5vh;
+    margin-right: 10px;
+}
+
+.mrp {
+    height: 86vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bellbtn {
+    background: transparent;
+    border: none;
+}
+#profbtn {
+    background: transparent;
+    border: none;
+}
+
+#msg {
+    flex-direction: column;
+    display: none;
+}
+
+.masage {
+    padding: 10px 10px 0 10px;
+}
+
+footer {
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
