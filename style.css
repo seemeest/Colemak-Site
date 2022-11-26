@@ -27,7 +27,7 @@ body {
 }
 
 #deer {
-    top: -75px;
+    top: -76px;
     left: -88px;
 }
 
@@ -186,4 +186,69 @@ body {
 #tree2r {
     top: -278px;
     left: 340px;
+}
+
+
+
+#prof div {
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
+}
+
+#one {
+    background-color: white;
+    width: 80vw;
+    height: 150px;
+    margin-bottom: 100px;
+}
+
+#two {
+    background-color: white;
+    width: 80vw;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+#three {
+    background-color: white;
+    width: 80vw;
+    height: 200px;
+}
+
+#one img, #two img, #three img {
+    position: relative;
+}
+
+#deerP {
+    top: -76px;
+    left: -88px;
+}
+
+#garlandP {
+    top: -100px;
+    left: 177px;
+}
+
+#tree1p {
+    top: 36px;
+    left: -66px;
+}
+
+#tree2p {
+    top: 37px;
+    left: 539px;
+    height: 100px;
+}
+
+#tree3p {
+    top: 51px;
+    left: -43px;
+    width: 80px;
+}
+
+#tree4p {
+    top: 52px;
+    left: 566px;
+    height: 150px;
 }
