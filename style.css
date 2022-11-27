@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     overflow: hidden;
 }
 
@@ -232,4 +233,30 @@ body {
 #garlandP {
     top: -100px;
     left: 177px;
+}
+
+#main {
+    color: white;
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#main h1 {
+    margin-bottom: 10px;
+}
+
+#santa {
+    width: 800px;
+}
+
+#santaBl {
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+}
+
+#kostil {
+    justify-content: flex-end;
 }
