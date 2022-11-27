@@ -190,39 +190,37 @@ body {
 
 
 
-#prof div {
+#one, #two {
     background-color: white;
     width: 700px;
     border-radius: 5px;
+    color: #F11321;
 }
 
 #one {
-    background-color: white;
-    width: 80vw;
     height: 150px;
     margin-bottom: 100px;
 }
 
 #two {
-    background-color: white;
-    width: 80vw;
-    height: 200px;
+    height: 450px;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
-#three {
-    background-color: white;
-    width: 80vw;
-    height: 200px;
+.naim {
+    padding: 10px;
 }
 
-#one img, #two img, #three img {
+#one img {
     position: relative;
 }
 
 #one h1 {
     position: relative;
-    top: -150px;
+    top: -140px;
     text-align: center;
 }
 
@@ -234,27 +232,4 @@ body {
 #garlandP {
     top: -100px;
     left: 177px;
-}
-
-#tree1p {
-    top: 36px;
-    left: -66px;
-}
-
-#tree2p {
-    top: 37px;
-    left: 539px;
-    height: 100px;
-}
-
-#tree3p {
-    top: 51px;
-    left: -43px;
-    width: 80px;
-}
-
-#tree4p {
-    top: 52px;
-    left: 566px;
-    height: 150px;
 }
