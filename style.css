@@ -87,12 +87,12 @@ body {
 }
 
 #tree1a {
-    top: -282px;
+    top: -279px;
     left: -66px;
 }
 
 #tree2a {
-    top: -279px;
+    top: -277px;
     left: 340px;
 }
 
@@ -179,12 +179,12 @@ body {
 }
 
 #tree1r {
-    top: -281px;
+    top: -279px;
     left: -66px;
 }
 
 #tree2r {
-    top: -278px;
+    top: -277px;
     left: 340px;
 }
 
@@ -218,6 +218,12 @@ body {
 
 #one img, #two img, #three img {
     position: relative;
+}
+
+#one h1 {
+    position: relative;
+    top: -150px;
+    text-align: center;
 }
 
 #deerP {
